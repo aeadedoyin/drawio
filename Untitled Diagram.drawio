@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-25T07:41:25.407Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="HlKr-Y7xBUWbTU2CL7MF" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-25T07:58:11.674Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ABKAudOdb1YnvQbdFprR" version="21.6.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1467" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3520" dy="1824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -118,8 +118,80 @@
         <mxCell id="Q7syjR6SLuBlEBHo_J01-38" value="Response:&amp;nbsp; ID, Status, Full detail" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="450" y="1400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Q7syjR6SLuBlEBHo_J01-41" value="Wallet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="1840" width="120" height="60" as="geometry" />
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q7syjR6SLuBlEBHo_J01-41" target="Q7syjR6SLuBlEBHo_J01-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-41" value="Fund" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="2000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q7syjR6SLuBlEBHo_J01-45" target="Q7syjR6SLuBlEBHo_J01-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q7syjR6SLuBlEBHo_J01-45" target="Q7syjR6SLuBlEBHo_J01-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-45" value="Wallet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="2000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q7syjR6SLuBlEBHo_J01-48" target="Q7syjR6SLuBlEBHo_J01-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-48" value="Initiates Transfer from IBAN" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="1870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q7syjR6SLuBlEBHo_J01-50" target="Q7syjR6SLuBlEBHo_J01-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-50" value="to: Abrod Custodian Account" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="1730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q7syjR6SLuBlEBHo_J01-52" target="Q7syjR6SLuBlEBHo_J01-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-52" value="Tribe Webhook: Notify Abrod" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="1730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q7syjR6SLuBlEBHo_J01-54" target="Q7syjR6SLuBlEBHo_J01-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-54" value="Response:&amp;nbsp; ID, Status, Full detail" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="1870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q7syjR6SLuBlEBHo_J01-57" target="Q7syjR6SLuBlEBHo_J01-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-57" value="Invest" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="2000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-59" value="Deducted from User Wallet&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;[within Abrod]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;[No Tribe Involvement]" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="2000" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q7syjR6SLuBlEBHo_J01-61" target="Q7syjR6SLuBlEBHo_J01-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-61" value="Initiates Transfer from Custodian" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="2110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q7syjR6SLuBlEBHo_J01-63" target="Q7syjR6SLuBlEBHo_J01-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-63" value="to: User IBAN" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="2370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q7syjR6SLuBlEBHo_J01-65" target="Q7syjR6SLuBlEBHo_J01-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-65" value="Tribe Webhook: Notify Abrod" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="2370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q7syjR6SLuBlEBHo_J01-67" target="Q7syjR6SLuBlEBHo_J01-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-67" value="Response:&amp;nbsp; ID, Status, Full detail" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="2270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7syjR6SLuBlEBHo_J01-69" value="Deducted from User Wallet&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;[within Abrod]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;[No Tribe Involvement]" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="2130" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
