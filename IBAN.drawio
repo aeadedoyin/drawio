@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-07-25T09:15:45.204Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="21.6.1" etag="vVCyAUToaf9Oi93hwBxT" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-25T09:16:35.837Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="iZ7MaBHJjbLoe6dmfPXQ" version="21.6.1" type="github">
   <diagram name="Page-1" id="OTF-XdgWaMcE1n6semn3">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mqWmAkFVIQZ10_LjRjNq-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="460" width="460" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="mqWmAkFVIQZ10_LjRjNq-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mqWmAkFVIQZ10_LjRjNq-3" target="mqWmAkFVIQZ10_LjRjNq-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mqWmAkFVIQZ10_LjRjNq-3" value="After KYC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mqWmAkFVIQZ10_LjRjNq-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mqWmAkFVIQZ10_LjRjNq-5" target="mqWmAkFVIQZ10_LjRjNq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mqWmAkFVIQZ10_LjRjNq-5" value="Create IBAN" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mqWmAkFVIQZ10_LjRjNq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mqWmAkFVIQZ10_LjRjNq-7" target="mqWmAkFVIQZ10_LjRjNq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mqWmAkFVIQZ10_LjRjNq-7" value="Tribe: Creates IBAN" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mqWmAkFVIQZ10_LjRjNq-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mqWmAkFVIQZ10_LjRjNq-9" target="mqWmAkFVIQZ10_LjRjNq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mqWmAkFVIQZ10_LjRjNq-9" value="Tribe Webhook: Notify Abrod" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mqWmAkFVIQZ10_LjRjNq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mqWmAkFVIQZ10_LjRjNq-11" target="mqWmAkFVIQZ10_LjRjNq-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mqWmAkFVIQZ10_LjRjNq-11" value="Response: [id, status, IBAN]" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="590" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mqWmAkFVIQZ10_LjRjNq-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mqWmAkFVIQZ10_LjRjNq-13" target="mqWmAkFVIQZ10_LjRjNq-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mqWmAkFVIQZ10_LjRjNq-13" value="Get IBAN: by ID: Tribe" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="740" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mqWmAkFVIQZ10_LjRjNq-14" value="In-bound/Out-bound&amp;nbsp;&lt;br&gt;enabled" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
